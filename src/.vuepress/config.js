@@ -27,6 +27,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    smoothScroll: true,
     repo: 'Zitkala/Hallo.Tools-Docs',
     editLinks: true,
     docsDir: 'src',
