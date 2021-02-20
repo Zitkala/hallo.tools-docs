@@ -1,0 +1,20 @@
+{
+  "name": "vuepress",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/vuepress",
+  "scripts": {
+    "dev": "yarn vuepress dev src",
+    "build": "yarn vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress": "^1.8.2"
+  }
+}
