@@ -1,13 +1,27 @@
 {
-  "name": "vuepress",
+  "name": "hallo-tools-docs",
   "version": "0.0.1",
-  "description": "",
+  "description": "Documentation for administration on the website Hallo.Tools",
   "main": "index.js",
   "authors": {
-    "name": "",
-    "email": ""
+    "name": "Norman Huth",
+    "email": "norman@huth.it"
   },
-  "repository": "/vuepress",
+  "keywords": [
+    "VuePress",
+    "Twitch",
+    "Chatbot",
+    "Documentation",
+    "German"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zitkala/Hallo.Tools-Docs"
+  },
+  "homepage": "https://docs.hallo.tools/",
+  "bugs": {
+    "url": "https://github.com/Zitkala/Hallo.Tools-Docs/issues"
+  },
   "scripts": {
     "dev": "yarn vuepress dev src",
     "build": "yarn vuepress build src"
