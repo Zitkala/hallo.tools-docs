@@ -29,7 +29,7 @@ module.exports = {
   themeConfig: {
     repo: '',
     editLinks: true,
-    docsDir: '',
+    docsDir: 'src',
     docsRepo:'Zitkala/Hallo.Tools-Docs',
     editLinkText: '',
     lastUpdated: false,
