@@ -33,24 +33,27 @@ In den Felder (Content, Alternativer Content etc) stehen Dir folgende Variablen 
 | `{upHours}` | gibt die Uptime des Streams in Stunden aus (Neustarts mit eingestellten Delay berücksichtigt) |
 | `{upMinutes}` | gibt die Uptime des Streams in Minuten aus (Neustarts mit eingestellten Delay berücksichtigt) |
 | `{upTime}` | gibt die Uptime des Streams formatiert aus, zBsp: *5 Stunden und 46 Minuten* (Neustarts mit eingestellten Delay berücksichtigt) |
-| `$diffDays(2020-12-24)` | oder `$diffDays(2020-12-24 20:22)` gibt die Differenz zur aktuellen Zeit in Tagen wieder (Beispiel: 276 Tage) |
-| `$diffHours(2020-12-24)` | oder `$diffHours(2020-12-24 20:22)` gibt die Differenz zur aktuellen Zeit in Stunden wieder (Beispiel: 623 Stunden) |
-| `$diffTime(2020-12-24)` | oder `$diffTime(2020-12-24 20:22)` gibt die Differenz zur aktuellen Zeit formatiert wieder (Beispiel: 1 Woche, 2 Tage und 23 Stunden) |
+| `$diffDays(2020-12-24)` `$diffDays(2020-12-24 20:22)` | gibt die Differenz zur aktuellen Zeit in Tagen wieder (Beispiel: 276 Tage) |
+| `$diffHours(2020-12-24)` `$diffHours(2020-12-24 20:22)` | gibt die Differenz zur aktuellen Zeit in Stunden wieder (Beispiel: 623 Stunden) |
+| `$diffTime(2020-12-24)` `$diffTime(2020-12-24 20:22)` | gibt die Differenz zur aktuellen Zeit formatiert wieder (Beispiel: 1 Woche, 2 Tage und 23 Stunden) |
 
-### Argumente
+## Argumente
 Du kannst auf verschiedene Argumente im Command reagieren, also auf die Wörter die von einem Benutzer aus dem Chat nach dem Command geschrieben werden.
 Zum Beispiel wird folgender Command geschrieben:  
-`!command Alexa Nicole Niclas Lif Muetze Lisa`  
+`!command Alexa Amanda Lisa Luna Milo Muetze Niclas Nicole Prinz`  
 Dann kannst Du auf die geschriebenen Wörter folgendermaßen zugreifen:
 
 | Arg | Beschreibung |
 | --- | :--- |
 | `{arg1}` | gibt das 1. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Alexa`) |
-| `{arg2}` | gibt das 2. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Nicole`) |
-| `{arg3}` | gibt das 3. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Niclas`) |
-| `{arg4}` | gibt das 4. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Lif`) |
-| `{arg4}` | gibt das 4. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Muetze`) |
-| `{arg5}` | gibt das 5. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Lisa`) |
+| `{arg2}` | gibt das 2. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Amanda`) |
+| `{arg3}` | gibt das 3. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Lisa`) |
+| `{arg4}` | gibt das 4. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Luna`) |
+| `{arg5}` | gibt das 5. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Milo`) |
+| `{arg6}` | gibt das 6. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Muetze`) |
+| `{arg7}` | gibt das 7. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Niclas`) |
+| `{arg8}` | gibt das 8. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Nicole`) |
+| `{arg9}` | gibt das 9. Wort nach dem Command aus (in dem Beispiel wäre es das Wort `Prinz`) |
 Das ganze geht von `{arg1}` bis `{arg9}`
 
 ## Zahlen und Rechnen

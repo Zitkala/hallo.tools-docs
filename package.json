@@ -8,11 +8,22 @@
     "email": "norman@huth.it"
   },
   "keywords": [
-    "VuePress",
-    "Twitch",
-    "Chatbot",
-    "Documentation",
-    "German"
+    "vuepress",
+    "vuepress-site",
+    "twitch",
+    "twitchtv",
+    "twitch-chat-bot",
+    "twitch-bot",
+    "twitchbot",
+    "twitch-tv",
+    "twitch-tv-bot",
+    "chatbot",
+    "documentation",
+    "german-language",
+    "vue",
+    "german",
+    "docs-generator",
+    "static-site-generator"
   ],
   "repository": {
     "type": "git",
