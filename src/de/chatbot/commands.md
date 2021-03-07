@@ -85,7 +85,7 @@ Mit Aliases kannst Du den gleichen Command mit anderen Wörter aufrufen lassen. 
 
 Aktuell gibt es folgende Module:
 * Text: Klassischer Command
-* Verlosung: Zum Veranstalten einer Verlosung in dem Chat. Der Gewinner wird per Zufall ausgewählt
+* **\[deprecated\]** Verlosung: Zum Veranstalten einer Verlosung in dem Chat. Der Gewinner wird per Zufall ausgewählt
 * Watchtime: Zur Ausgabe der Watchtime
 * JaNein Orakel: Gibt eine Zufallsantwort aus
 * Followage: Auch bekannt als Followtime. Dieser gibt dem Benutzer, der diesen nutzt, aus, wie lange dieser bereits folgt.
