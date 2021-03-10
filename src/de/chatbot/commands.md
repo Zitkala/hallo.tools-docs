@@ -133,6 +133,9 @@ Zur Formatierung der Watchtime hast Du folgende Möglichkeiten:
 | `$topHours(5)` | gibt die `5` besten Watchtimes inklusive Namen in Stunden wieder |
 | `$topHoursMonth(3)` | gibt die `3` besten Watchtimes des **aktuellen Monats** inklusive Namen in Stunden wieder |
 | `$topHoursLast(4)` | gibt die `4` besten Watchtimes des **letzten Monats** inklusive Namen in Stunden wieder |
+| `$topMinutes(5)` | gibt die `5` besten Watchtimes inklusive Namen in Minuten wieder |
+| `$topMinutesMonth(3)` | gibt die `3` besten Watchtimes des **aktuellen Monats** inklusive Namen in Minuten wieder |
+| `$topMinutesLast(4)` | gibt die `4` besten Watchtimes des **letzten Monats** inklusive Namen in Minuten wieder |
 
 
 ## JaNein Orakel
