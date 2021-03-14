@@ -109,6 +109,7 @@ Zur Formatierung der Watchtime hast Du folgende Möglichkeiten:
 | `{hours}` | für die Watchtime in Stunden (nur die Zahl mit 2 Kommastellen) |
 | `{minutesWord}` | gibt das Wort Minute oder Minuten aus, je nachdem ob {minutes} 1 ist oder nicht |
 | `{hoursWord}` | gibt das Wort Stunde oder Stunden aus, je nachdem ob {hours} 1 ist oder nicht |
+| `{wtRank}` | gibt den Platz/Rang aus |
 ### Aktueller Monat
 | Variabel/Funktion | Beschreibung |
 | --- | :--- |
@@ -117,6 +118,7 @@ Zur Formatierung der Watchtime hast Du folgende Möglichkeiten:
 | `{hoursCurrent}` | für die Watchtime **des aktuellen Monats** in Stunden (nur die Zahl mit 2 Kommastellen) |
 | `{minutesCurrentWord}` | gibt das Wort Minute oder Minuten aus, je nachdem ob {minutesCurrent} 1 ist oder nicht |
 | `{hoursCurrentWord}` | gibt das Wort Stunde oder Stunden aus, je nachdem ob {hoursCurrent} 1 ist oder nicht |
+| `{wtRankCurrent}` | gibt den Platz/Rang **des aktuellen Monats** aus |
 ### Letzter Monat
 | Variabel/Funktion | Beschreibung |
 | --- | :--- |
@@ -125,6 +127,7 @@ Zur Formatierung der Watchtime hast Du folgende Möglichkeiten:
 | `{hoursLast}` | für die Watchtime **des letzten Monats** in Stunden (nur die Zahl mit 2 Kommastellen) |
 | `{minutesLastWord}` | gibt das Wort Minute oder Minuten aus, je nachdem ob {minutesLast} 1 ist oder nicht |
 | `{hoursLastWord}` | gibt das Wort Stunde oder Stunden aus, je nachdem ob {hoursLast} 1 ist oder nicht |
+| `{wtRankLast}` | gibt den Platz/Rang **des letzten Monats** aus |
 
 
 ## Top Watchtimes
