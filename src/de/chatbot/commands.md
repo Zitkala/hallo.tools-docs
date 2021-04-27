@@ -79,7 +79,9 @@ Mit der $rand erstellten Zahl kannst Du auch noch mathematisch rechnen.
 | `$randCalc(*,5.5)` | *multipliziert* die Zahl aus $rand mit `5,5`. **Eingabe ohne Leerzeichen! Punkte & Komma beachten!** |
 | `$randCalc(+,4,2)` | *addiert* `4` zu der Zahl aus $rand und Ausgabe mit `2` Dezimalstellen. **Eingabe ohne Leerzeichen! Punkte & Komma beachten!** |
 | `$randCalc(-,6)` | *subtrahiert* `6` von der Zahl aus $rand. **Eingabe ohne Leerzeichen!** |
-*In den Klammern wird das amerikanische Zahlensystem genutzt. Dort werden die Dezimalen nicht mit einem Komma, sondern mit einem Punkt getrennt. Ein Komma wird nur als Separator für weitere Werte genutzt. Wichtig ist auch, dass keine Leerzeichen in den Klammern genutzt werden.*
+::: warning
+In den Klammern wird das amerikanische Zahlensystem genutzt. Dort werden die Dezimalen nicht mit einem Komma, sondern mit einem Punkt getrennt. Ein Komma wird nur als Separator für weitere Werte genutzt. Wichtig ist auch, dass keine Leerzeichen in den Klammern genutzt werden.
+:::
 > {info} Der Aufbau ist wie folgt: $randCalc(`A`,`B`,`C`) **(Ohne Leerzeichen)**
 > * A= Mathematischer Operator: `*`, `/`, `+` oder `-`
 > * B = Die Zahl die zum rechnen mit dem Wert von $rand() genutzt werden soll. (Dezimalstellen mit Punkt statt Komma angeben: 2.4)
@@ -99,7 +101,7 @@ Mit Aliases kannst Du den gleichen Command mit anderen Wörter aufrufen lassen. 
 | Followage | Auch bekannt als Followtime. Dieser gibt dem Benutzer, der diesen nutzt, aus, wie lange dieser bereits folgt. |
 | Stream Marker | Bei diesem Command wird ein Stream Marker (Highlight gesetzt). Es gibt bei diesem Commands keine Argumente, dafür wird der darauf folgende Text als Beschreibung für diesen Marker genuzt (max. 140 Zeichen) |
 ::: danger
-Der Stream Marker functioniert nur, wenn der Stream der Website die Rechte `channel:manage:broadcast` gegeben hat. 
+Der Stream Marker functioniert nur, wenn die Streamerin oder der Streamer der Website die Rechte `channel:manage:broadcast` gegeben hat. 
 :::
 
 ## Command Schützen
