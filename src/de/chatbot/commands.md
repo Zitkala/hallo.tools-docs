@@ -68,6 +68,10 @@ Das ganze geht von `{arg1}` bis `{arg9}`
 | `$rand(5.5,10.5,2)` | gibt eine Zufallszahl zwischen `5,5` & `10,5` mit `2` Dezimalstellen aus. **Eingabe ohne Leerzeichen! Punkte & Komma beachten!** |
 | `$thisRand()` | gibt die erstellte Zufallszahl nochmal aus |
 
+::: tip
+Mit der $rand erstellten Zahl kannst Du auch noch mathematisch rechnen.
+:::
+
 #### Rechnen mit der Zahl
 | Variabel/Funktion | Beschreibung |
 | --- | :--- |
@@ -87,12 +91,16 @@ Mit Aliases kannst Du den gleichen Command mit anderen Wörter aufrufen lassen. 
 
 ## Module
 
-Aktuell gibt es folgende Module:
-* Text: Klassischer Command
-* **\[deprecated\]** Verlosung: Zum Veranstalten einer Verlosung in dem Chat. Der Gewinner wird per Zufall ausgewählt
-* Watchtime: Zur Ausgabe der Watchtime
-* JaNein Orakel: Gibt eine Zufallsantwort aus
-* Followage: Auch bekannt als Followtime. Dieser gibt dem Benutzer, der diesen nutzt, aus, wie lange dieser bereits folgt.
+| Modul | Beschreibung |
+| --- | :--- |
+| Text | Klassischer Command |
+| Watchtime | Zur Ausgabe der Watchtime |
+| JaNein Orakel | Gibt eine Zufallsantwort aus |
+| Followage | Auch bekannt als Followtime. Dieser gibt dem Benutzer, der diesen nutzt, aus, wie lange dieser bereits folgt. |
+| Stream Marker | Bei diesem Command wird ein Stream Marker (Highlight gesetzt). Es gibt bei diesem Commands keine Argumente, dafür wird der darauf folgende Text als Beschreibung für diesen Marker genuzt (max. 140 Zeichen) |
+::: danger
+Der Stream Marker functioniert nur, wenn der Stream der Website die Rechte `channel:manage:broadcast` gegeben hat. 
+:::
 
 ## Command Schützen
 ![Command Schützen](https://hallo.tools/img/docs/006b.png)
