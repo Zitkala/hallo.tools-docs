@@ -36,6 +36,10 @@ In den Felder (Content, Alternativer Content etc) stehen Dir folgende Variablen 
 | `$diffDays(2020-12-24)` `$diffDays(2020-12-24 20:22)` | gibt die Differenz zur aktuellen Zeit in Tagen wieder (Beispiel: 276 Tage) |
 | `$diffHours(2020-12-24)` `$diffHours(2020-12-24 20:22)` | gibt die Differenz zur aktuellen Zeit in Stunden wieder (Beispiel: 623 Stunden) |
 | `$diffTime(2020-12-24)` `$diffTime(2020-12-24 20:22)` | gibt die Differenz zur aktuellen Zeit formatiert wieder (Beispiel: 1 Woche, 2 Tage und 23 Stunden) |
+| `{description}` | gibt die Marker-Beschreibung wieder. **(Stream Marker Command)** |
+::: warning
+{description} funktioniert nur bei einem Stream Marker Command.
+:::
 
 ## Argumente
 Du kannst auf verschiedene Argumente im Command reagieren, also auf die Wörter die von einem Benutzer aus dem Chat nach dem Command geschrieben werden.
