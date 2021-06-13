@@ -24,7 +24,6 @@ In den Felder (Content, Alternativer Content etc) stehen Dir folgende Variablen 
 | `$twitchGames(Streamer)` | gibt die letzten 3 Kategorien aus, welcher bei `Streamer` liefen |
 | `$twitchGames(Streamer,4)` | gibt die letzten `4` Kategorien aus, welcher bei `Streamer` liefen |
 | `$twitchUrl(Streamer)` | generiert den Link zu dem Kanal von `Streamer` (dabei ist Groß- & Kleinschreibung egal und ob @ benutzt wird) |
-| `{user}` | für den „Display Username“ der Person, welche den Command nutzte |
 | `{username}` | für den Usernamen der Person, welche den Command nutzte (ist immer klein geschrieben) |
 | `{user_id}` | für die User-ID, der Person, welche den Command nutzt |
 | `{streamer}` | gibt den „Display Usernamen“ der/des Streamer(in) aus |
